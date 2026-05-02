@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+// TC = O(nlog(2)n)
+// SC = O(n), for the temp array used in the mergee function.
+
 void mergee(vector<int> &, int, int, int);
 
 void mergeSort(vector<int> &v, int low, int high) {
