@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// TC = O(NlogN)
+// TC = O(NlogN) but Worst case is O(N^2)
 // SC = O(1) (AI: but if we take stack space into consideration, SC for best and av. would be logN and worst will be N)
 
 int findPI(vector<int>&, int, int);
